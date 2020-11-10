@@ -3,18 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hello Bulma!</title>
+    <title>Michael Jones Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
     />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <section class="hero is-success is-fullheight">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">Michael D Jones II</h1>
-          <h2 class="subtitle">Fullstack Web Developer</h2>
+          <h1 class="title" id="name">Michael D Jones II</h1>
+          <h2 class="subtitle" id="name">Fullstack Web Developer</h2>
         </div>
       </div>
     </section>
@@ -62,7 +63,7 @@
   
 
     <!--About Me-->
-    <section class="hero is-primary">
+    <section class="hero is-success">
       <div class="hero-body">
         <div class="container">
           <div class="level">
@@ -136,28 +137,33 @@
 </section>
 
 <!--Contact Me-->
-<section class="hero is-primary">
+<section class="hero is-dark">
   <div class="hero-body">
     <div class="container">
+      <div class="level pb-5">
+        <class class="level-item">
+          <p class="title ">Let's Connect</p>
+        </class>
+      </div>
       <div class="columns">
         <div class="column is-2"></div>
         <div class="column is-8">
           <div class="field">
-            <label class="label">Name</label>
+            <label class="">Name</label>
             <div class="control">
               <input class="input" type="text" placeholder="Text input">
             </div>
           </div>
           
           <div class="field">
-            <label class="label">Email</label>
+            <label class="">Email</label>
             <div class="">
               <input class="input" type="email" placeholder="Email input" value="">
             </div>
           </div>
           
           <div class="field">
-            <label class="label">Message</label>
+            <label class="">Message</label>
             <div class="control">
               <textarea class="textarea" placeholder="Textarea"></textarea>
             </div>
@@ -165,10 +171,10 @@
                     
           <div class="field is-grouped">
             <div class="control">
-              <button class="button is-link">Submit</button>
+              <button class="button is-success">Submit</button>
             </div>
             <div class="control">
-              <button class="button is-link is-light">Cancel</button>
+              <button class="button is-light">Cancel</button>
             </div>
           </div>
          
@@ -186,8 +192,8 @@
       <div class="hero-body">
         <div class="container">
           <div class="level pb-5">
-            <class class="level-item pt-5">
-              <p class="title ">Let's Connect</p>
+            <class class="level-item">
+              <p class="title ">Socials</p>
             </class>
           </div>
           <article class="columns">
@@ -257,4 +263,5 @@
 
     
   </body>
+  <script src="./script.js"></script>
 </html>
