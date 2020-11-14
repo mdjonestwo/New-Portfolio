@@ -3,10 +3,15 @@
 const text = document.querySelector('#name');
 const strText = text.textContent;
 const splitText = strText.split("")
+console.log(splitText)
 text.textContent = ""
 
 for(let i = 0; i <splitText.length; i++){
     text.innerHTML += "<span>" + splitText[i] + "</span>"
+    if (splitText[i] === " "){
+        text.innerHTML += " " + " " + " " 
+        
+    }
 }
 
 let char = 0;
