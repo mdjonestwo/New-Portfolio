@@ -1,5 +1,5 @@
 # New-Portfolio
-{link for website}
+https://mdjonestwo.github.io/New-Portfolio/.
 
 # Technologies Used
 1: HTML
