@@ -128,33 +128,16 @@
   <div class="hero-body">
     <div class="container">
    <div class="columns">
-     <div class="column is-2"></div>
      <div class="column is-4">
-       <div class="has-text-centered">
-        <h1 class="title">
-          Coding Skills
-         </h1>
-         <p>Html</p>
-         <p>CSS</p>
-         <p>JavaScript</p>
-         <p>BootStrap</p>
-         <p>Bulma</p>
-         <p>JQuery</p>
-         <p>GitHub</p>
-       </div>
        </div>
        <div class="column is-4">
         <div class="has-text-centered">
          <h1 class="title">
-           Other Skills
+           Resume
           </h1>
-          <p>Organization</p>
-          <p>Leadership</p>
-          <p>Communication</p>
-          <p>Marketing </p>
-          <p>Design</p>
-          <p>Collaboration</p>
-          <p></p>
+        <a href="assets/Downloads/Michael D Jones II.pdf" download>
+          <img src="assets/images/Screen Shot 2020-11-14 at 11.07.38 PM.png">
+        </a>
         </div>
         </div>      
      </div>
@@ -230,7 +213,7 @@
               <div class="card">
                 <div class="card-image">
                   <figure class="image">
-                    <a><img src="./assets/images/github_logo_icon_.png" alt="Github"></a>
+                    <a href="https://github.com/mdjonestwo"><img src="./assets/images/github_logo_icon_.png" alt="Github"></a>
                   </figure>
                 </div>
                 <div class="card-content">    
@@ -248,13 +231,13 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image">
-                  <a><img src="./assets/images/mail_icon.png" alt="Email"></a>
+                  <a><img src="./assets/images/mail_icon.png" alt="Email" onclick="showEmail()"></a>
                 </figure>
               </div>
               <div class="card-content">    
                 <div class="content">
                   <div class="has-text-centered">
-                  <a class="title has-text-black" href="#"><p>E-Mail</p></a> 
+                  <a class="title has-text-black" href="#" onclick="showEmail()"><p>E-Mail</p></a> 
                   </div>
                   <a href=""></a>
                 </div>
@@ -266,7 +249,7 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image">
-                  <a><img src="./assets/images/linkin_logo_icon_154491.png" alt="linkedin"></a>
+                  <a href="https://www.linkedin.com/in/michael-jones-ii-5112411b7/"><img src="./assets/images/linkin_logo_icon_154491.png" alt="linkedin"></a>
                 </figure>
               </div>
               <div class="card-content">    
@@ -286,7 +269,20 @@
         </div>
       </div>
     </section>
+<!--EMAIL MODAL-->
+<div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box">
 
+      <h1 class="title">
+        mdjones2[at]protonmail.com
+      </h1>
+    </div>
+   
+  </div>
+  <button class="modal-close is-large" aria-label="close" onclick="closeEmail()"></button>
+</div>
 
     
   </body>

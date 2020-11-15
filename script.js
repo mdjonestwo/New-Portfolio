@@ -32,3 +32,14 @@ function complete(){
     timer = null
 }
 
+//Show Email Modal
+var modal = document.querySelector(".modal")
+
+
+function showEmail() {
+    modal.classList.add("is-active")
+  }
+
+function closeEmail(){
+    modal.classList.remove("is-active")
+}
