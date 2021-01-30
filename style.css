@@ -1,17 +1,32 @@
-span{
-    opacity: 0;
-    transition: all 0.4 ease;
-    transform: translateY(50px);
-    display: inline-block;
-    padding-right: 2px;
+* {
+  font-family: "Righteous", cursive;
 }
 
-span.fade{
-    opacity: 1;
-    transform: translateY(0px);
+/* NAME ANIMATION*/
+span {
+  opacity: 0;
+  transition: all 0.4 ease;
+  transform: translateY(50px);
+  display: inline-block;
+  padding-right: 2px;
 }
 
-span.sub{
-    opacity: 1;
-    transform: translateY(0px);
+span.fade {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+span.sub {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+/*HERO*/
+
+.jones-hero {
+  background-color: #b2b2b2;
+}
+
+.jones-name {
+  font-size: 105px;
 }
