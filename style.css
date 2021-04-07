@@ -1,5 +1,6 @@
 * {
   font-family: "Righteous", cursive;
+  color: white;
 }
 
 /* NAME ANIMATION*/
@@ -25,8 +26,24 @@ span.sub {
 
 .jones-hero {
   background-color: #b2b2b2;
+  background-image: url("./assets/images/pexels-stephan-seeber-1054218.jpg");
+  background-size: auto;
+}
+
+.jones-about {
+  background-image: url("./assets/images/pexels-maria-orlova-4916559.jpg");
 }
 
 .jones-name {
   font-size: 105px;
+  color: #8dc5f6;
+  margin-bottom: 3px;
+}
+.jones-subtitle {
+  color: white;
+}
+
+.jones-title {
+  color: white;
+  font-size: 30px;
 }
